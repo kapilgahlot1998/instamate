@@ -6,6 +6,8 @@ export default async function handler(req, res) {
   console.log("Callback received");
   
 
+  //git remote add origin https://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@github.com/kapilgahlot1998/instamate.git
+
   if (!code) {
     return res.status(400).json({ error: 'Authorization code is missing' });
   }
